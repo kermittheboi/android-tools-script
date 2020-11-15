@@ -1,6 +1,6 @@
 ## Introduction
 
-Android Tools Script is a universal Linux script created entirely in Bash/Shell that helps new and experienced users set their Linux environment faster and hassle free for custom rom development.
+Android Tools Script is a universal Linux script created entirely in Bash that helps new and experienced users set their Linux environment faster and hassle free for custom rom development.
 
 ## Why use this script?
 
