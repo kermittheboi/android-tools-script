@@ -1,6 +1,6 @@
 ## Introduction
 
-AIO Tools (All in One Tools) is a universal Linux script created entirely in Bash/Shell that helps new and experienced users set their Linux environment faster and hassle free for custom rom development.
+Android Tool Script is a universal Linux script created entirely in Bash/Shell that helps new and experienced users set their Linux environment faster and hassle free for custom rom development.
 
 ## Why use this script?
 
