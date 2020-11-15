@@ -1,6 +1,6 @@
 ## Introduction
 
-AIO Tools (All in One Tools) is a universal script that helps new and experienced users set their linux environment faster and hassle free for custom rom development. It was created entirely on Bash/Shell and it's compatible with most Linux distros.
+AIO Tools (All in One Tools) is a universal script that helps new and experienced users set their linux environment faster and hassle free for custom rom development.
 
 ## Why use this script?
 
@@ -8,7 +8,7 @@ Usually most of the commands are all over the place, either missing something im
 
 ## What's included?
 
-Git installation, Google's repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code.
+Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code.
 
 ## Requirements
 
@@ -42,4 +42,5 @@ Git installation, Google's repo, platform tools zip for ADB and fastboot, akhiln
 - Cleaning up the code.
 - Prevent accidental reset of Git details and new folder.
 - Script asks user if they want to download ROMs repo.
-- Script asks user if they want to sync the source code from the repo. 
+- Script asks user if they want to sync the source code from the repo.
+- Script asks user if they want to build the environment.
