@@ -10,6 +10,13 @@ Usually most of the commands are all over the place, either missing something im
 
 Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code.
 
+## Credits
+
+- Google, for their repo, platforms tools for Linux and required packages code.
+- LineageOS Team, for their build guide.
+- PixelExperience Team, for their build guide.
+- CrDroid, for their useful comments.
+
 ## Requirements
 
 - A 64-bit Linux distro
@@ -22,13 +29,6 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 2. Open terminal and run it from there.
 3. Type Y/y, write your desired folder's name and set Git details when it's needed.
 4. Done!
-
-## Credits
-
-- Google, for their repo, platforms tools for Linux and required packages code.
-- LineageOS Team, for their build guide.
-- PixelExperience Team, for their build guide.
-- CrDroid, for their useful comments.
 
 ## Common errors
 
