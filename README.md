@@ -23,6 +23,13 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 3. Type Y/y, write your desired folder's name and set Git details when it's needed.
 4. Done!
 
+## Credits
+
+- Google, for their repo, platforms tools for Linux and required packages code.
+- LineageOS Team, for their build guide.
+- PixelExperience Team, for their build guide.
+- CrDroid, for their useful comments.
+
 ## Common errors
 
 - In case you get the "Permission denied" error in terminal, click on the script, hit Ctrl + I, go to Permissions and tick "Allow executing file as program".
@@ -34,3 +41,5 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 - Uninstall script will also delete user's created folder.
 - Cleaning up the code.
 - Prevent accidental reset of Git details and new folder.
+- Script asks user if they want to download ROMs repo.
+- Script asks user if they want to sync the source code from the repo. 
