@@ -1,6 +1,6 @@
 ## Introduction
 
-AIO Tools (All in One Tools) is a universal script that helps new and experienced users set their linux environment faster and hassle free for custom rom development.
+AIO Tools (All in One Tools) is a universal script that helps new and experienced users set their linux environment faster and hassle free for custom rom development. It was created entirely on Bash/Shell and it's compatible with most Linux distros.
 
 ## Why use this script?
 
