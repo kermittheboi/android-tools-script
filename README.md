@@ -13,6 +13,7 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 ## Credits
 
 - Google, for their repo, platforms tools for Linux and required packages code.
+- akhilnarang, for his script.
 - LineageOS Team, for their build guide.
 - PixelExperience Team, for their build guide.
 - CrDroid, for their useful comments.
