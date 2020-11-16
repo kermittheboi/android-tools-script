@@ -38,9 +38,6 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 
 ## ToDo List
 
-- Make uninstall script. (on v1.1)
-- Uninstall script will also delete user's created folder. (on v1.1)
-- Cleaning up the code. (on v1.1)
 - Prevent accidental reset of Git details and new folder.
 - Script asks user if they want to download ROMs repo.
 - Script asks user if they want to sync the source code from the repo.
