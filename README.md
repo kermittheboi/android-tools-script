@@ -8,7 +8,7 @@ Usually most of the commands are all over the place, either missing something im
 
 ## What's included?
 
-Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code.
+Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code, auto-uninstallation script that removes all changes made.
 
 ## Credits
 
