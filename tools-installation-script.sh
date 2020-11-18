@@ -34,20 +34,27 @@ git clone https://github.com/akhilnarang/scripts && cd scripts
 ./setup/android_build_env.sh
 cd ..
 
-# configure git account
-printf "${RED}Set your Git email\n${NO_COLOR}"
-read GIT_AUTHOR_EMAIL
-git config --global user.email "$GIT_AUTHOR_EMAIL"
-printf "${RED}Set your Git username\n${NO_COLOR}"
-read GIT_AUTHOR_USERNAME
-git config --global user.name "$GIT_AUTHOR_USERNAME"
-git config --list | grep user.email && git config --list | grep user.name
+# git check & configuration
+~/.gitconfig &> /dev/null
+if [ ! -z "$email" ] && [ ! -z "$name" ]
+then
+   printf "${RED}Set your Git email\n${NO_COLOR}"
+   read GIT_AUTHOR_EMAIL
+   git config --global user.email "$GIT_AUTHOR_EMAIL"
+   printf "${RED}Set your Git username\n${NO_COLOR}"
+   read GIT_AUTHOR_USERNAME
+   git config --global user.name "$GIT_AUTHOR_USERNAME"
+   git config --list | grep user.email && git config --list | grep user.name
+else
+   printf "${YELLOW}Git was previously configured\n${NO_COLOR}"
+fi
 
 # creating rom directory
+printf "${RED}If you already have created a folder for the source code press Esc, then Enter\n${NO_COLOR}"
+printf "${YELLOW}If you want to create a folder again, simply continue as instructed\n${NO_COLOR}"
 read -p "New folder name:  " Var_Dir # variable_directory
 mkdir -p $Var_Dir && cd $Var_Dir # source code location
 NAME="rm -r $Var_Dir" && dest=$HOME/tools-uninstallation-script.sh
 echo "$NAME" >> "$dest"
 printf "${GREEN}$Var_Dir folder was successfully created at $HOME\n${NO_COLOR}"
 exit
-
