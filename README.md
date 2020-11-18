@@ -35,6 +35,7 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 
 - In case you get the "Permission denied" error in terminal, click on the script, hit Ctrl + I, go to Permissions and tick "Allow executing file as program".
 - If you get an error from extracting the zip file "platform-tools-latest-linux", open the terminal and run this command: unzip platform-tools-latest-linux -d ~
+- "bad interpreter". This error means you imported the code/script from Windows to Linux. Simply download or copy the script from a Linux VM/host and run it from there.
 
 ## ToDo List
 
