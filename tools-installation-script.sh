@@ -51,7 +51,7 @@ fi
 
 # creating rom directory
 printf "${RED}If you already have created a folder for the source code press Esc, then Enter\n${NO_COLOR}"
-printf "${YELLOW}If you want to create a folder again, simply continue as instructed\n${NO_COLOR}"
+printf "${RED}If you want to create a folder again, simply continue as instructed\n${NO_COLOR}"
 read -p "New folder name:  " Var_Dir # variable_directory
 mkdir -p $Var_Dir && cd $Var_Dir # source code location
 NAME="rm -r $Var_Dir" && dest=$HOME/tools-uninstallation-script.sh
