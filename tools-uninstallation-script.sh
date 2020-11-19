@@ -15,4 +15,3 @@ rm -r scripts
 rm -r platform-tools
 rm -r ~/bin
 printf "${YELLOW}Files were successfully removed\n${NO_COLOR}"
-rm -r ROM
