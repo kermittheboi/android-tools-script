@@ -57,4 +57,32 @@ mkdir -p $Var_Dir && cd $Var_Dir # source code location
 NAME="rm -r $Var_Dir" && dest=$HOME/tools-uninstallation-script.sh
 echo "$NAME" >> "$dest"
 printf "${GREEN}$Var_Dir folder was successfully created at $HOME\n${NO_COLOR}"
-exit
+
+# repo download and source sync
+SYNC=repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags &> /dev/null # source sync variable
+while true; do
+   read -r -p "Do you want to download ROMs repo right now?  " yn
+   case "$yn" in
+   [Yy]* ) 
+   printf "Please insert ROMs repo link\n"
+   read REPO # enter repo link here
+   $REPO
+   while true; do
+      read -r -p "Do you want to sync ROMs source code?  " yn
+      case "$yn" in
+      [Yy]* ) 
+      $SYNC # source sync
+      printf "Done\n"
+      exit;;
+      [Nn]* ) 
+      echo "Exiting"
+      exit;;
+      esac
+   done
+   exit;;
+   [Nn]* ) 
+   echo "Exiting"
+   exit;;
+   * ) "Please enter a valid answer (Yy/Nn)";;
+   esac
+done
