@@ -39,6 +39,4 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 
 ## ToDo List
 
-- Script asks user if they want to download ROMs repo.
-- Script asks user if they want to sync the source code from the repo.
 - Script asks user if they want to build the environment.
