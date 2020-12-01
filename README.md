@@ -16,6 +16,7 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 - akhilnarang, for his script.
 - LineageOS Team, for their build guide.
 - PixelExperience Team, for their build guide.
+- Evolution X, for their wiki.
 - CrDroid, for their useful comments.
 
 ## Requirements
