@@ -8,7 +8,7 @@ Usually most of the commands are all over the place, either missing something im
 
 ## What's included?
 
-Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script and user's custom folder for the source code, auto-uninstallation script that removes all changes made.
+Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhilnarang's building script, user's custom folder for the source code & auto-uninstallation script that removes all changes made.
 
 ## Credits
 
@@ -46,5 +46,5 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 - ~~Prevent accidental reset of Git details and new folder.~~ [DONE]
 - ~~Script asks user if they want to download ROMs repo.~~ [DONE]
 - ~~Script asks user if they want to sync the source code from the repo.~~ [DONE]
-- ~~Script asks user if they want to sync the source code from the repo.~~ [DONE]
+- ~~Script asks user if they want to sync the source code from the repo.~~ [WIP]
 - Script asks user if they want to build the environment.
