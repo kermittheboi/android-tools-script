@@ -78,7 +78,6 @@ echo "$RM_VAR" >> "$dest"
 printf "${GREEN}$Var_Dir folder was successfully created at $HOME\n${NO_COLOR}"
 
 # repo download and source sync
-SYNC=repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags &> /dev/null # source sync variable
 while true; do
    read -r -p "Do you want to download ROMs repo right now?  " yn
    case "$yn" in
@@ -91,8 +90,8 @@ while true; do
       case "$yn" in
       [Yy]* ) 
       printf "Press Ctrl + H to see hidden files\n"
-	  printf "Syncing source\n"
-	  $SYNC # source sync
+	  printf "Syncing source. It'll take couple of hours, depending on your internet connection.\n"
+	  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags &> /dev/null # source sync
       printf "Done\n"
       exit;;
       [Nn]* ) 
