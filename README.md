@@ -1,6 +1,6 @@
 ## Introduction
 
-Android Tools Script is a universal Linux script created entirely in Bash that helps new and experienced users set their Linux environment faster and hassle free for custom rom development.
+Android Tools Script is a universal Linux script created entirely in Bash that helps new and experienced users set their Linux environment faster and hassle free for custom rom development. It's an All-in-One script that includes every necessary command to get you started with custom rom development. 
 
 ## Why use this script?
 
@@ -46,5 +46,5 @@ Git installation, Google's Repo, platform tools zip for ADB and fastboot, akhiln
 - ~~Prevent accidental reset of Git details and new folder.~~ [DONE]
 - ~~Script asks user if they want to download ROMs repo.~~ [DONE]
 - ~~Script asks user if they want to sync the source code from the repo.~~ [DONE]
-- ~~Script asks user if they want to sync the source code from the repo.~~ [WIP]
+- ~~Script asks user if they want to sync the source code from the repo.~~ [DONE]
 - Script asks user if they want to build the environment.
